@@ -11,6 +11,10 @@ namespace GitHubTest.Controllers
         public ActionResult Index()
         {
             ViewData["data"] = "misc_song";
+
+
+
+            ViewData["test"] = "songhejun";
             return View();
 
         }
