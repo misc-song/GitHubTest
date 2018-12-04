@@ -21,6 +21,11 @@ namespace GitHubTest.Controllers
 
         public ActionResult About()
         {
+            string str = "1232";
+            Console.WriteLine(str);
+
+
+
             ViewBag.Message = "Your application description page.";
 
             return View();
