@@ -10,7 +10,9 @@ namespace GitHubTest.Controllers
     {
         public ActionResult Index()
         {
+            ViewData["data"] = "misc_song";
             return View();
+
         }
 
         public ActionResult About()
